@@ -47,12 +47,14 @@ Run the follwoing sample test ==>/src/test/java/APITest/loginLogOut_apiTest.java
  Maven 
  
  Where the bellow libraries will be installed automatically from maven repository 
+ 
  -testNg
  -Cucucmber
  -RestAssure
  
  
  # Where to find sample test class to run and see results :
+
  -for testNG ==> /src/test/java/testCases/TestLoginPage_using_testNG.java
  -for Cucumbr ==> /src/test/java/features/loginPageTest.feature
  -for RestAssure ==>/src/test/java/APITest/loginLogOut_apiTest.java
