@@ -16,11 +16,11 @@ I have implemented a data driven test approach to do both + tve and =ve test, he
       |           |                      | /login  |
       
  # Developing test framework core principals 
- ## Use Page Object Modeling : each test page or service should have a helper 
- ## create a helper classes to store comment helpers, utils, constants, api definitions, ....
- ## have a testing package where you create all test cases 
- ## avoid using hardcoded variables as much as possible
- ## use data drivent testing for better test coverage 
+ - Use Page Object Modeling : each test page or service should have a helper 
+ - create a helper classes to store comment helpers, utils, constants, api definitions, ....
+ - have a testing package where you create all test cases 
+ - avoid using hardcoded variables as much as possible
+ - use data drivent testing for better test coverage 
  
  # Cucubmer:
  helps us to use a BDD testing approach where anyone, even product owner, is able to participate to feed and write test featurs, while the equivalent code is running and doing the actual task on behind 
