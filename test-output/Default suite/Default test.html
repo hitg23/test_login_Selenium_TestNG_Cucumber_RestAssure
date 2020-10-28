@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 26 20:12:28 EDT 2020</td>
+<td>Started on:</td><td>Tue Oct 27 21:05:53 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (744 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4116 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,137 +67,18 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='CucumberTestRunner.TestRunnerTestNG.run_cukes()'><b>run_cukes</b><br>Test class: CucumberTestRunner.TestRunnerTestNG<br>Test method: Runs Cucumber Features<br/>
-<a href="#Output-1746570062" onClick='toggleBox("Output-1746570062", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1746570062" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1746570062">
-<div "featureFile">Feature File: loginPageTest.feature</div><br/>
-<div "feature">Feature: Login test for internet.herokuapp</div><br/>
-<div "scenarioOutline">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">When  I type user name=&quot;&lt;userName&gt;&quot; and password=&quot;&lt;password&gt;&quot; (failed : 0s)</div><br/>
-<div "scenario">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">And  I click Login button (skipped)</div><br/>
-<div "result">Then  &quot;&lt;url&gt;&quot; should open (skipped)</div><br/>
-<div "result">Given  I am in internet.herokuapp login page &quot;https:&#x2F;&#x2F;the-internet.herokuapp.com&#x2F;login&quot; (skipped)</div><br/>
-<div "result">When  I type user name=&quot;tomsmith&quot; and password=&quot;SuperSecretPassword!&quot; (failed : 0s)</div><br/>
-<div "scenario">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">And  I click Login button (skipped)</div><br/>
-<div "result">Then  &quot;&#x2F;secure&quot; should open (skipped)</div><br/>
-<div "result">Given  I am in internet.herokuapp login page &quot;https:&#x2F;&#x2F;the-internet.herokuapp.com&#x2F;login&quot; (skipped)</div><br/>
-<div "result">When  I type user name=&quot;&quot; and password=&quot;SuperSecretPassword!&quot; (failed : 0s)</div><br/>
-<div "scenario">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">And  I click Login button (skipped)</div><br/>
-<div "result">Then  &quot;&#x2F;login&quot; should open (skipped)</div><br/>
-<div "result">Given  I am in internet.herokuapp login page &quot;https:&#x2F;&#x2F;the-internet.herokuapp.com&#x2F;login&quot; (skipped)</div><br/>
-<div "result">When  I type user name=&quot;tomsmith&quot; and password=&quot;&quot; (failed : 0s)</div><br/>
-<div "scenario">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">And  I click Login button (skipped)</div><br/>
-<div "result">Then  &quot;&#x2F;login&quot; should open (skipped)</div><br/>
-<div "result">Given  I am in internet.herokuapp login page &quot;https:&#x2F;&#x2F;the-internet.herokuapp.com&#x2F;login&quot; (skipped)</div><br/>
-<div "result">When  I type user name=&quot;tomsmith&quot; and password=&quot;SuperSecretPassword&quot; (failed : 0s)</div><br/>
-<div "scenario">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">And  I click Login button (skipped)</div><br/>
-<div "result">Then  &quot;&#x2F;login&quot; should open (skipped)</div><br/>
-<div "result">Given  I am in internet.herokuapp login page &quot;https:&#x2F;&#x2F;the-internet.herokuapp.com&#x2F;login&quot; (skipped)</div><br/>
-<div "result">When  I type user name=&quot;tomsmith1&quot; and password=&quot;SuperSecretPassword!&quot; (failed : 0s)</div><br/>
-<div "scenario">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">And  I click Login button (skipped)</div><br/>
-<div "result">Then  &quot;&#x2F;login&quot; should open (skipped)</div><br/>
-<div "result">Given  I am in internet.herokuapp login page &quot;https:&#x2F;&#x2F;the-internet.herokuapp.com&#x2F;login&quot; (skipped)</div><br/>
-<div "result">When  I type user name=&quot;tomsmith1&quot; and password=&quot;SuperSecretPassword&quot; (failed : 0s)</div><br/>
-<div "scenario">Scenario Outline: Login test with different credentials</div><br/>
-<div "result">And  I click Login button (skipped)</div><br/>
-<div "result">Then  &quot;&#x2F;login&quot; should open (skipped)</div><br/>
-<div "result">Given  I am in internet.herokuapp login page &quot;https:&#x2F;&#x2F;the-internet.herokuapp.com&#x2F;login&quot; (skipped)</div><br/>
-</div>
-</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
-	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:182)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:194)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at stepDefinitions.LoginTest.i_am_in_internet_herokuapp_login_page(LoginTest.java:19)
-	at ?.Given I am in internet.herokuapp login page &quot;https://the-internet.herokuapp.com/login&quot;(loginPageTest.feature:23)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1746570062", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1746570062'><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
-	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:182)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:194)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at stepDefinitions.LoginTest.i_am_in_internet_herokuapp_login_page(LoginTest.java:19)
-	at ?.Given I am in internet.herokuapp login page &quot;https://the-internet.herokuapp.com/login&quot;(loginPageTest.feature:23)
-</pre></div></td>
-<td>0</td>
-<td>CucumberTestRunner.TestRunnerTestNG@305b7c14</td></tr>
+<td title='APITest.loginLogOut_apiTest.submitForm()'><b>submitForm</b><br>Test class: APITest.loginLogOut_apiTest</td>
+<td></td>
+<td>4</td>
+<td>APITest.loginLogOut_apiTest@70325e14</td></tr>
 </table><p>
 </body>
 </html>

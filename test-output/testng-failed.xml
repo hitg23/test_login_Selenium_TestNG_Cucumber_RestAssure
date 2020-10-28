@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="CucumberTestRunner.TestRunnerTestNG">
+      <class name="APITest.loginLogOut_apiTest">
         <methods>
-          <include name="run_cukes"/>
+          <include name="submitForm"/>
         </methods>
-      </class> <!-- CucumberTestRunner.TestRunnerTestNG -->
+      </class> <!-- APITest.loginLogOut_apiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
