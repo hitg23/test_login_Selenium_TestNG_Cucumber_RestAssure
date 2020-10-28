@@ -1,4 +1,4 @@
-# test_login_Selenium_TestNG_Cucumber_-_RestAssure 
+# test_login_Selenium_TestNG_Cucumber_RestAssure 
 
 This code contains how to test a login page with different credentials ( +ve, and -ve ) test
 The test uses three known testing frameworks (TestNG, Cucumber, RestAssure) just to show how all of them are working 
