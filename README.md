@@ -24,16 +24,19 @@ I have implemented a data driven test approach to do both + tve and =ve test, he
  
  # Cucubmer:
  helps us to use a BDD testing approach where anyone, even product owner, is able to participate to feed and write test featurs, while the equivalent code is running and doing the actual task on behind 
+ 
  Run the follwoing sample test ==> /src/test/java/features/loginPageTest.feature
 
 # TestNG:
  is so popular and very flexible to do all type of testing ( sepecially integration testing) and have lots of features like creating suite masters and running test cases in parallel 
+
 Run the follwoing sample test ==> /src/test/java/testCases/TestLoginPage_using_testNG.java
 
  
  # RestAsssure:
  for backend testing is really essential to do all type of webservies tests ( endpoints) with varios data types ==> which will be fast enought to cover lot tests 
- Run the follwoing sample test ==>/src/test/java/APITest/loginLogOut_apiTest.java
+
+Run the follwoing sample test ==>/src/test/java/APITest/loginLogOut_apiTest.java
 
  # Selenium is better to use for UI test. 
  
